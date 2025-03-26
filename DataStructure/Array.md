@@ -93,4 +93,5 @@ print(maxSumSlidingWindow([2, 1, 5, 1, 3, 2], 3)) // 출력: 9 (5 + 1 + 3)
 ### iOS 개발에서의 연관 관계
 - UICollectionView나 UITableView의 dataSource는 보통 Array로 관리됨.
     - 예: 인스타그램 피드, 유튜브 동영상 목록
-    - 
+    - index를 통해 목록의 값을 빠르게 찾아 다음페이지로 이동하는 경우가 많음
+    - 최근 선언형 UI에서는 ID로 관리하는 편이며, 때문에 페이지간의 이동은 단순화된 ID를 주고받는 형식을 사용

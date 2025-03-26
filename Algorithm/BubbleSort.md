@@ -29,6 +29,7 @@ func bubbleSort(_ array: inout [Int]) {
         var swapped = false
         for j in 0..<(n - i - 1) {
             if array[j] > array[j + 1] {
+                print(i, j, array[j], array[j + 1]) // 변경 순서를 보기 위한 print
                 array.swapAt(j, j + 1)
                 swapped = true
             }
@@ -39,5 +40,11 @@ func bubbleSort(_ array: inout [Int]) {
 
 var numbers = [5, 2, 9, 1, 5, 6]
 bubbleSort(&numbers)
+// 0 0 5 2
+// 0 2 9 1
+// 0 3 9 5
+// 0 4 9 6
+// 1 1 5 1
+// 2 0 2 1
 print(numbers) // [1, 2, 5, 5, 6, 9]
 ```

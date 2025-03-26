@@ -31,6 +31,7 @@ func selectionSort(_ array: inout [Int]) {
             }
         }
         if i != minIndex {
+            print(i, minIndex, array[i], array[minIndex]) // 변경 순서를 보기 위한 print
             array.swapAt(i, minIndex)
         }
     }
@@ -38,5 +39,8 @@ func selectionSort(_ array: inout [Int]) {
 
 var numbers = [64, 25, 12, 22, 11]
 selectionSort(&numbers)
+// 0 4 64 11
+// 1 2 25 12
+// 2 3 25 22
 print(numbers) // [11, 12, 22, 25, 64]
 ```

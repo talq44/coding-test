@@ -26,6 +26,7 @@ func insertionSort(_ array: inout [Int]) {
     for i in 1..<n {
         var j = i
         while j > 0 && array[j] < array[j - 1] {
+            print(i, j, array[j], array[j - 1])
             array.swapAt(j, j - 1)
             j -= 1
         }
@@ -34,5 +35,12 @@ func insertionSort(_ array: inout [Int]) {
 
 var numbers = [12, 11, 13, 5, 6]
 insertionSort(&numbers)
+// 1 1 11 12
+// 3 3 5 13
+// 3 2 5 12
+// 3 1 5 11
+// 4 4 6 13
+// 4 3 6 12
+// 4 2 6 11
 print(numbers) // [5, 6, 11, 12, 13]
 ```

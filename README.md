@@ -15,7 +15,6 @@
 - 트라이(Trie)
 - 세그먼트 트리(Segment Tree)
 
-
 ## 시간복잡도
 ![image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220812122843/Logarithmic-time-complexity-blog-1.jpg)
 

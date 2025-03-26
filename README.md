@@ -44,3 +44,5 @@ O(N!) |	순열과 같이 모든 경우를 탐색 |	외판원 문제, 순열 생�
 병합 정렬 (Merge Sort) |	O(n log n) |	O(n log n) |	O(n log n) |	O(n) |	분할 정복(Divide & Conquer)
 퀵 정렬 (Quick Sort) |	O(n log n) |	O(n log n) |	O(n²) |	O(log n) |	피벗을 기준으로 분할하여 정렬
 계수 정렬 (Counting Sort) |	O(n + k) |	O(n + k) |	O(n + k) |	O(k) |	숫자의 빈도를 활용한 정렬
+
+### 탐색

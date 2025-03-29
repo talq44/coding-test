@@ -52,7 +52,6 @@ print(permutations) // [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [
 4.	[LeetCode 40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 ...
 
-
 ### iOS 개발에서의 연관성
 	•	복잡한 옵션 조합 탐색, 사용자 입력 시나리오 제어
 	•	예: 입력 폼 유효성 검사, UI 조합 추천, 게임 퍼즐 로직
